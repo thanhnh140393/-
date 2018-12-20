@@ -1,0 +1,135 @@
+body{
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #FFF;
+  padding:0;
+  margin:0;
+  font-family:"メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
+}
+.menu {
+	 
+    background-size: cover;
+  background-image: url(https://sites.google.com/site/vietlovetravelcom/_/rsrc/1429865781623/nhung-dhieu-ban-nen-biet-khi-dhi-tour-du-lich-nha-trang/banner1-82db61063a.jpg);
+}
+.menu-main{
+
+ display: block;
+background: rgb(154,26,100);
+background: linear-gradient(90deg, rgba(154,26,100,1) 0%, rgba(154,26,100,1) 18%, rgba(173,51,122,0.5553571770505077) 64%, rgba(179,84,139,0.33126754119616597) 92%, rgba(173,81,135,0.17720591654630602) 100%);
+}
+.menu-top .logo{
+  float: left;
+  margin: 0 20px;
+}
+/* .menu-top .seach{
+    float: right;
+} */
+
+.menu-down{
+
+}
+.menu-down ul{
+  font-weight:bold;
+	text-align:center;;
+	padding-top:75px;
+	padding-bottom:5px;
+	margin:0;
+}
+.menu-down ul li{
+    display: inline;
+    padding: 5px 10px;
+    border: 1px solid #d2b7c7;
+  border-radius:25px;
+    
+}
+.menu-down ul li:hover{
+  background-color:#c86ea3;
+  color:#FFF;
+  
+}
+.menu-down ul li a{
+ text-decoration: none;
+ display: inline-block;
+ color:#FFF;
+}
+.menu-down ul li a:hover{
+  color:#FFF;
+}
+.banner img{
+	  box-shadow: .2px 2px 12px rgba(0,0,0,.2); 
+	margin: 10px auto;
+	display: block;
+	
+}
+.container{
+	display: block;
+	clear:both;
+/*	width:960px;*/
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #FFF;
+	color: #757575;
+
+}
+.main{}
+.info ,.travel ,.foods{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 960px;
+	overflow: auto;
+	padding: 10px 20px;
+
+}
+h1{
+	padding: 14px 24px 10px 16px;
+	border-bottom: 2px solid #cb9eb8;
+}
+.travel{
+	padding: 10px 20px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  	justify-content: center;
+}
+.box{
+
+  position: relative;
+  min-height:1px;
+  box-shadow: .2px 2px 12px rgba(0,0,0,.2); 
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 19px;
+}
+.box img{
+  vertical-align: middle;
+  border-style:none;
+  width: 255px;
+  height: 130px;
+}
+.box .content{
+  padding: 20px;
+}
+.box h2{
+  margin-top:10px;
+  font-size: 20px;
+   font-weight: 800;
+}
+.box a{
+  text-decoration: none;
+}
+.box p{
+    color: #757575;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 36px;
+}
+.footer{
+	margin-top: 20px;
+	display: block;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
