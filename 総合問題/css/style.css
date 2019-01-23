@@ -1,0 +1,153 @@
+body{
+	font-family:"メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
+	color:#ffffff;
+	background-color:#000000;
+	line-height:1.5;
+	margin:0;
+	padding:0;
+}
+header h1{
+	color:#ffcc66;
+	font-family:"Cambria","Palatino",serif;
+	font-size:200%;
+	margin:0;
+}
+ul{
+	list-style-type:none;
+	margin-top:0;
+	padding:0;
+}
+nav{
+	background-color:#006600;
+}
+nav ul{
+	padding:10px 0;
+}
+nav li{
+	display:inline;
+}
+article{
+	position:relative;
+}
+.catch{
+	position:absolute;
+	top:40px;
+	left:50px;
+	text-shadow:0 5px 10px #000000;
+	background-color:rgba(0,0,0,0.5);
+	padding:15px;
+}
+.new{
+	font-size:80%;
+	color:#333333;
+	background-image:linear-gradient(to bottom,#ffffcc,#ffcc66);
+	background-color:#ffffcc;
+	border-radius:10px;
+	padding-left:15px;
+	padding-right:15px;
+}
+aside h1{
+	font-size:120%;
+	border-bottom:2px dotted #666666;
+	margin:0;
+}
+aside li{
+	border-bottom:1px dotted #666666;
+	height:53px;
+}
+.shop{
+	display:block;
+	font-size:80%;
+	color:#ffcc66;
+	font-weight:bold;
+}
+aside img{
+	float:left;
+	margin-right:10px;
+}
+aside li{
+	clear:both;
+}
+footer{
+	text-align:center;
+	border-top:solid 1px #99ff66;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+ol li{
+	display: inline;
+	font-size:80%;
+	margin-right:5px;
+}
+ol{
+	padding-left:0;
+}
+table{
+	font-size:90%;
+	color:#333333;
+	margin-bottom:20px;
+	border:1px solid #333333;
+	border-collapse:collapse;
+}
+th{
+	background-color:#99ff66;
+	width:20%;
+	padding:10px;
+	border:1px solid #333333;
+}
+td{
+	background-color:#ffffff;
+	padding:10px;
+	border:1px solid #333333;
+}
+caption{
+	color:#ffcc66;
+	font-weight:bold;
+}
+.h1-sub{
+	font-size:180%;
+	padding-left:10px;
+	border-left:20px solid #99ff66;
+}
+video{
+	max-width:100%;
+	height:auto;
+}
+input{
+	display:block;
+	width:440px;
+}
+textarea{
+	display:block;
+	width:660px;
+	height:150px;
+}
+button{
+	width:150px;
+	padding:10px;
+}
+nav a{
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+	padding:10px;
+}
+nav a:hover{
+	color:#000000;
+	background-color:#99ff66;
+}
+aside a{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+}
+header h1 a,section a{
+	color:#ffcc66;
+	text-decoration:none;
+}
+ol a{
+	color:#ffcc66;
+}
+
